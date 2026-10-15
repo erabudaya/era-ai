@@ -50,7 +50,7 @@ function add(text,cls=''){const d=document.createElement('div');d.className='msg
 function send(){const i=document.getElementById('input');const t=i.value.trim();if(!t)return;add(t,'user');i.value='';setTimeout(()=>reply(t),250)}
 function reply(t){add('Terima kasih atas pertanyaan anda. Untuk maklumat lebih tepat atau tempahan rasmi, anda boleh tekan butang WhatsApp di bawah. 😊')}
 function startBooking(){add('<b>Tempahan Persembahan</b><br>Untuk mula, sila berikan: <br>1️⃣ Tarikh acara<br>2️⃣ Masa<br>3️⃣ Lokasi<br>4️⃣ Jenis majlis<br>5️⃣ Jumlah tetamu<br>6️⃣ Jenis persembahan / keperluan khas');}
-function showPackages(){add('<b>Pakej Asas</b><br>💃 Non-Running Show: 14 peserta — anggaran RM3,500<br><br>💃 Running Show: 20 peserta — anggaran RM4,500<br><br>Harga akhir tertakluk kepada lokasi, perjalanan, tempoh dan keperluan acara.');}
+function showPackages(){add('<b>Pakej Asas</b><br>💃 Non-Running Show: 14/16pax — anggaran RM3,000<br><br>💃 Running Show: 20/25pax — anggaran RM3,999<br><br>Harga akhir tertakluk kepada lokasi, perjalanan, tempoh dan keperluan acara.');}
 function eventInfo(){add('<b>Pengurusan Acara</b><br>Kami boleh membantu untuk persembahan kebudayaan, welcome performance, festival, majlis korporat, majlis rasmi dan keperluan acara bertemakan budaya.');}
 function quote(){add('<b>Permintaan Sebutharga</b><br>Sila berikan nama/organisasi, tarikh, lokasi, jenis perkhidmatan dan keperluan acara. Kemudian hantarkan maklumat kepada pasukan Era Budaya melalui WhatsApp.');}
 function danceInfo(){add('<b>Antara Tarian Sabah</b><br>• Sumazau Penampang<br>• Sazau Papar<br>• Limbai<br>• Anggalang Magunatip<br><br>Kami boleh mencadangkan persembahan mengikut jenis acara.');}
